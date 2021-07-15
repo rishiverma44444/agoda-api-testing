@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14262" started-at="2021-07-15T12:41:56Z" finished-at="2021-07-15T12:42:10Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14262" started-at="2021-07-15T12:41:56Z" finished-at="2021-07-15T12:42:10Z">
+      <class name="com.testing.scripts.TestTagAuthorPageFilter">
+        <test-method status="PASS" signature="startup()[pri:0, instance:com.testing.scripts.TestTagAuthorPageFilter@20e2cbe0]" name="startup" is-config="true" duration-ms="16" started-at="2021-07-15T18:12:05Z" finished-at="2021-07-15T18:12:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method status="PASS" signature="getValidTagAuthor()[pri:4, instance:com.testing.scripts.TestTagAuthorPageFilter@20e2cbe0]" name="getValidTagAuthor" duration-ms="1741" started-at="2021-07-15T18:12:05Z" description="Positive : Fetch records with Valid tag and Author" finished-at="2021-07-15T18:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValidTagAuthor -->
+        <test-method status="PASS" signature="getValidTagInvalidAuthor()[pri:5, instance:com.testing.scripts.TestTagAuthorPageFilter@20e2cbe0]" name="getValidTagInvalidAuthor" duration-ms="1687" started-at="2021-07-15T18:12:07Z" description="Negative : Fetch records with Valid tag and Invalid Author" finished-at="2021-07-15T18:12:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValidTagInvalidAuthor -->
+        <test-method status="PASS" signature="getValidTagPage()[pri:6, instance:com.testing.scripts.TestTagAuthorPageFilter@20e2cbe0]" name="getValidTagPage" duration-ms="1783" started-at="2021-07-15T18:12:08Z" description="Positive : Fetch records with Valid tag and valid page number" finished-at="2021-07-15T18:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValidTagPage -->
+      </class> <!-- com.testing.scripts.TestTagAuthorPageFilter -->
+      <class name="com.testing.scripts.TestPageFilter">
+        <test-method status="PASS" signature="startup()[pri:0, instance:com.testing.scripts.TestPageFilter@2a5ca609]" name="startup" is-config="true" duration-ms="469" started-at="2021-07-15T18:11:56Z" finished-at="2021-07-15T18:11:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method status="PASS" signature="getValidPageStart()[pri:1, instance:com.testing.scripts.TestPageFilter@2a5ca609]" name="getValidPageStart" duration-ms="5025" started-at="2021-07-15T18:11:56Z" description="Positive : Fetch records with valid page number 1" finished-at="2021-07-15T18:12:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValidPageStart -->
+        <test-method status="PASS" signature="getValidPageEnd()[pri:2, instance:com.testing.scripts.TestPageFilter@2a5ca609]" name="getValidPageEnd" duration-ms="1787" started-at="2021-07-15T18:12:01Z" description="Positive : Fetch records with max valid page number 95" finished-at="2021-07-15T18:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValidPageEnd -->
+        <test-method status="PASS" signature="getValidPageInvalid()[pri:3, instance:com.testing.scripts.TestPageFilter@2a5ca609]" name="getValidPageInvalid" duration-ms="1706" started-at="2021-07-15T18:12:03Z" description="Negative : Fetch records with Invalid page number 96" finished-at="2021-07-15T18:12:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValidPageInvalid -->
+      </class> <!-- com.testing.scripts.TestPageFilter -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
