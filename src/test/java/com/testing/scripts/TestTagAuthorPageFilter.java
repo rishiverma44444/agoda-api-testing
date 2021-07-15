@@ -4,16 +4,19 @@ import java.util.HashMap;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.testing.Commons.BaseAPI;
 import com.testing.Commons.CommonUtils;
+import com.testing.Commons.CustomReporter;
 import com.testing.Commons.GlobalConstants;
 import com.testing.Commons.JsonUtils;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
+@Listeners(CustomReporter.class)
 public class TestTagAuthorPageFilter extends BaseAPI {
 	
 	@BeforeClass
